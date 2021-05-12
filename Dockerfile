@@ -1,11 +1,11 @@
 FROM debian:buster-slim
 
-MAINTAINER Mathieu Ruellan <mathieu.ruellan@gmail.com>
+LABEL maintainer="github.com/Develbold"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV HOME /root
 
-ARG PIWIGO_VERSION="2.10.2"
+ARG PIWIGO_VERSION="11.4.0"
 
 RUN apt update -y \
      && apt install -yy \

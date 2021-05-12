@@ -3,6 +3,8 @@
 This is an image for piwigo, linked with a mysql database.
 Data must be stored on a volume.
 
+It is forked from <https://github.com/mathieuruellan/docker-piwigo>. 
+
 ## Features
 - Easy deployment of Piwigo with a docker-compose.
 
