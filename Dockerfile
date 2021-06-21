@@ -5,7 +5,7 @@ LABEL maintainer="github.com/Develbold"
 ENV DEBIAN_FRONTEND noninteractive
 ENV HOME /root
 
-ARG PIWIGO_VERSION="11.4.0"
+ARG PIWIGO_VERSION="11.5.0"
 
 RUN apt update -y \
      && apt install -yy \
